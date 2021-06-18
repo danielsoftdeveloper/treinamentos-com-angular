@@ -21,7 +21,7 @@ export class CourseListComponent implements OnInit {
                 code: 'XLF-1212',
                 rating: 3,
                 price: 12.99,
-                imageUrl: '',
+                imageUrl: '/assets/images/cli.png',
 
             },
             {
@@ -33,7 +33,7 @@ export class CourseListComponent implements OnInit {
                 code: 'DWQ-3412',
                 rating: 3.5,
                 price: 24.99,
-                imageUrl: '',
+                imageUrl: '/assets/images/forms.png',
             }
         ]
 
