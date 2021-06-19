@@ -22,10 +22,10 @@
             <td>{{ course.description }}</td>
             <td>{{ course.duration }}</td>
             <td>{{ course.code }}</td>
-            <td>{{ course.rating }}</td>
+            <td>
+                <app-star [rating]="course.rating"></app-star>
+            </td>
             <td>{{ course.price }}</td>
-            <td></td>
-
             <td></td>
         </tr>
 
